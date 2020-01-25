@@ -1,0 +1,102 @@
+@media (max-width:1280px) {
+  .mainlogo {
+    margin-left: 2em;
+  }
+  .textru{
+    margin-right: 2em;
+  }
+  .search{
+    margin-right: 2em;
+  }
+  .account {
+    margin-right: 2em;
+  }
+  .text-we-are{
+    display: none;
+  }
+  .Rectangle-4-Copy {
+    display: none;
+  }
+  .mission {
+    display:none;
+  }
+   .wrapper{
+     max-width: 800px;
+     height:100%;
+   }
+   .cell-1,
+   .cell-2{
+     margin-top:-10em;
+   }
+   .cell-3{
+     margin-top:0;
+   }
+   .copyright{
+     margin-left:2em;
+     margin-right:20px;
+   }
+   .contacts{
+     width:100%;
+     margin-right:0;
+     margin-left:0;
+   }
+   .privacy{
+     width:100px;
+   }
+}
+@media (max-width:820px) {
+
+  .mainlogo {
+    margin-left: 0.5em;
+  }
+  .textru{
+    margin-right: 0.5em;
+  }
+  .search{
+    margin-right: 0.5em;
+  }
+  .account {
+    margin-right: 0.5em;
+  }
+  .Digital-chemistry{
+    width: 400px;
+    font-size: 84px;
+    margin-left:0.5em;
+  }
+  .text-we-are{
+    display: none;
+  }
+  .Rectangle-4-Copy {
+    display: none;
+  }
+  .mission {
+    display:none;
+  }
+   .wrapper{
+     max-width: 400px;
+     height:100%;
+   }
+   .cell-1{
+     margin-top:-10em;
+   }
+   .cell-2,
+   .cell-3{
+     margin-top:0;
+   }
+   .copyright{
+     margin-left:0.5em;
+     margin-right:0.5em;
+   }
+   .contacts{
+     width:100%;
+     margin-right:0;
+     margin-left:0;
+   }
+   .privacy{
+     width:100px;
+   }
+   .icon{
+     margin-right:2em;
+   }
+
+}

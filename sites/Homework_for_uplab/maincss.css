@@ -1,0 +1,325 @@
+body{
+  display: flex;
+  flex-direction: column;
+  padding:0;
+  margin:0;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: inherit;
+  font-size: 1em;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  color: #808080;
+}
+.header{
+  width: 100%;
+  height: 700px;
+  background-color: #000000;
+}
+/*.block{
+  display:inline-block;
+  vertical-align:middle;
+}*/
+/*1 часть хидера*/
+.mainmenu{
+  width:;
+  display:flex;
+  justify-content: center;
+  margin:auto;
+
+}
+.mainlogo {
+  width: ;
+  display:flex;
+  margin-left: 5em;
+  height: 100%;/*21px*/
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  line-height: 90px;
+  color: #ffffff;
+  text-align:center;
+  vertical-align:middle;
+}
+
+.mainmenuflex{
+  width:20%;
+  display:flex;
+  justify-content: center;
+}
+.menuimg {
+  width: 50px;
+  height: 100%;/*10px*/
+  object-fit: contain;
+  margin-right:1em;
+}
+.menutext{
+  width: 46px;
+  height: 100%;/*21px*/
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  vertical-align: middle;
+
+}
+.search{
+  width: 27px;
+  height: 100%;/*28px*/
+  object-fit: contain;
+  margin-right: 4em;
+}
+.textru{
+  width: 17px;
+  height: 100%;/*21px*/
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-right:4em;
+  vertical-align: middle;
+  margin-top:1.7em;
+}
+.headermenu{
+  height:90px;
+  display:flex;
+  justify-content: flex-start;
+  margin:auto;
+}
+.account {
+  width: 27px;
+  height: 100%;/*28px*/
+  object-fit: contain;
+  margin-right: 4em;
+}
+.menuicons{
+  display:flex;
+  justify-content: flex-end;
+}
+.menuiconsflex{
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+/*2 часть хидера*/
+.headerletters{
+  padding-top:5em;
+  display: flex;
+  justify-content: flex-start;
+}
+.Digital-chemistry {
+  width: 472px;
+  height: 226px;
+  font-family: AdobeThai;
+  font-size: 104px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left:0.8em;
+}
+.we-are-flex{
+  display: flex;
+  justify-content: flex-end;
+  width:100%;
+  margin-top:2em;
+}
+.We-are-one-of-the-in{
+  display: flex;
+  justify-content: flex-end;
+  width: ;
+  max-height: 350px;
+  font-family: AdobeThai;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: #2ffbc8;
+  width:100%;
+}
+.text-we-are{
+  overflow: hidden;
+}
+.Rectangle-4-Copy {
+  width: 80px;
+  height: 1px;
+  background-color: #2ffbc8;
+  margin-left:40%;
+  vertical-align:top;
+  margin-top:1.6em;
+  margin-right:2em;
+}
+.mission {
+  width: ;
+  height: 113px;
+  opacity: 0.1;
+  font-family: AdobeThai;
+  font-size: 104px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  position:relative;
+  top:1.5em;
+  right:  5em;
+
+}
+/********* начало качественного контента**********/
+.maincontent{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+.wrapper {
+  display: flex;
+  justify-content: ;
+  width:1250px;
+  height:1500px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0;
+  flex-wrap:wrap;
+}
+.cell-1,
+.cell-2,
+.cell-3 {
+  margin-top:-10em;
+}
+.cell{
+  height:30em;
+  margin-bottom:0px;
+}
+.data-image{
+  width: 100%;
+  height: 34px;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #000000;
+  margin-top:15px;
+}
+.short-des {
+  width: 360px;
+  height: 82px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: var(--black);
+  overflow:hidden;
+}
+/******* footer ********/
+
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: #000000;
+}
+.privacy,
+.copyright {
+  width: 125px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+
+}
+.copyrightflex{
+  width:100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.copyrightflex2{
+  width:100%;
+  display: flex;
+  justify-content:center;
+}
+.copyright{
+  margin-left:5em;
+  margin-top:4em;
+}
+.contacts{
+  display:flex;
+  justify-content: flex-end;
+  width:80%;
+  margin-top:4em;
+}
+.footer-icons{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  margin-top:5em;
+}
+.icon{
+  margin-right:70px;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: AdobeThai; /* Гарнитура шрифта */
+    src: url(fonts/AdobeThai-Regular.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Roboto; /* Гарнитура шрифта */
+    src: url(fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+      }
+@font-face {
+    font-family: RobotoNorm; /* Гарнитура шрифта */
+    src: url(fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+            }
+@font-face {
+    font-family: CSTMXPRMNTL01; /* Гарнитура шрифта */
+    src: url(fonts/CSTMXPRMNTL01.otf); /* Путь к файлу со шрифтом */
+                        }
+@font-face {
+    font-family: RobotoBold; /* Гарнитура шрифта */
+    src: url(fonts/Roboto-bold.ttf); /* Путь к файлу со шрифтом */
+                        }
